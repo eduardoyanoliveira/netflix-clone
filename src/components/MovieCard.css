@@ -1,0 +1,15 @@
+.movieCard{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieCard img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movieCard img:hover{
+    transform: scale(1);
+}
